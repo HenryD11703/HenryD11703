@@ -1,0 +1,8 @@
+{
+  "name": "profile-assets",
+  "private": true,
+  "type": "module",
+  "description": "Builds the SVGs of the profile README. Run: npm install && npm run build",
+  "scripts": { "build": "node build-assets.mjs" },
+  "devDependencies": { "subset-font": "^2.3.0" }
+}
