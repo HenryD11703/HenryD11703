@@ -2,7 +2,7 @@
 
 I'm a full-stack developer in Guatemala City. I build complete products with TypeScript, React and Next.js, C# and .NET, and PostgreSQL. I write the spec and the tests before the code, and I publish what I build. Today I build production software for a national pharmacy chain, and I'm looking for a **remote full-stack role**.
 
-<img src="assets/program.svg" alt="const henry = { role: 'Full-stack developer', based: 'Guatemala City · remote', stack: ['TypeScript', 'React', '.NET', 'WebAssembly'], built: ['OakLand', 'JobHuntly', 'BugLab', 'Rung', 'Forge'], openTo: 'Remote roles and contract work' }" width="100%">
+<img src="assets/program.svg" alt="const henry = { role: 'Full-stack developer', based: 'Guatemala City · remote', stack: ['TypeScript', 'React', '.NET', 'WebAssembly'], built: ['OakLand', 'db-mcp', 'JobHuntly', 'BugLab', 'Rung', 'Forge'], openTo: 'Remote roles and contract work' }" width="100%">
 
 ## Work
 
@@ -14,26 +14,35 @@ I'm a full-stack developer in Guatemala City. I build complete products with Typ
 <br><a href="https://oakland-compiler.vercel.app/">Live</a> · <a href="https://github.com/HenryD11703/oakland-compiler">Source</a> · <a href="https://henryquel.tech/projects/oakland">Case study</a>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/HenryD11703/mcp-db"><img src="assets/card-db-mcp.svg" alt="db-mcp: the nine safeguards between an AI agent and a database"></a>
+<br><b>db-mcp</b>: a read-only database server for AI agents (MCP) that a security team can say yes to. PostgreSQL, SQL Server, MySQL and SQLite, with nine independent safeguards: only a single <code>SELECT</code> passes, it refuses to start if its database user could write, costly queries wait for a human, sensitive columns are masked, and every step goes into a hash-chained audit log. It infers the foreign keys that legacy databases never declared. 375 tests; <code>npm i -g db-mcp-node</code>.
+<br><a href="https://www.npmjs.com/package/db-mcp-node">npm</a> · <a href="https://github.com/HenryD11703/mcp-db">Source</a> · <a href="https://henryquel.tech/projects/db-mcp">Case study</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://job-huntly-smoky.vercel.app/"><img src="assets/card-jobhuntly.svg" alt="JobHuntly: an interview notebook"></a>
 <br><b>JobHuntly</b>: an interview notebook. Prepare each round, write down what happened, and see what your search says. .NET 8 API, PostgreSQL, Next.js; the AI only ever drafts.
 <br><a href="https://job-huntly-smoky.vercel.app/">Live</a> · <a href="https://github.com/HenryD11703/JobHuntly">Source</a> · <a href="https://henryquel.tech/projects/jobhuntly">Case study</a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://bug-lab.vercel.app/"><img src="assets/card-buglab.svg" alt="BugLab: learn to read broken Python"></a>
 <br><b>BugLab</b>: learn to read broken Python. Predict the result, find the bug, explain it, then fix it. Python runs in your browser with Pyodide: no server, no account. 177 unit and 87 end-to-end tests.
 <br><a href="https://bug-lab.vercel.app/">Live</a> · <a href="https://github.com/HenryD11703/BugLab">Source</a> · <a href="https://henryquel.tech/projects/buglab">Case study</a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://rung-delta.vercel.app/"><img src="assets/card-rung.svg" alt="Rung: practice React like an interviewer asks"></a>
 <br><b>Rung</b>: practice React the way an interviewer asks. Twelve exercises, a real editor in the browser, and feedback you can trust: the code decides pass or fail with 81 automated checks, and the model only explains the result.
 <br><a href="https://rung-delta.vercel.app/">Live</a> · <a href="https://github.com/HenryD11703/rung">Source</a> · <a href="https://henryquel.tech/projects/rung">Case study</a>
 </td>
+<td width="50%" valign="top">
+<b>Forge</b>: a VS Code extension that turns the editor into a place to learn, with guided missions reviewed by AI. It is published but paused: its backend is not running, so there is no demo to open.
+<br><a href="https://github.com/HenryD11703/Forge">Source</a>
+</td>
 </tr>
 </table>
-
-Also: **[Forge](https://github.com/HenryD11703/Forge)**, a VS Code extension that turns the editor into a place to learn, with guided missions reviewed by AI. It is published but paused: its backend is not running.
 
 ## Stack
 

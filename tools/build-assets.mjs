@@ -58,7 +58,7 @@ ${mono}
     { parts: [p("  role:   "), s('"Full-stack developer"'), p(",")], res: "→ ok" },
     { parts: [p("  based:  "), s('"Guatemala City · remote"'), p(",")], res: "→ ok" },
     { parts: [p("  stack:  ["), s('"TypeScript"'), p(", "), s('"React"'), p(", "), s('".NET"'), p(", "), s('"WebAssembly"'), p("],")], res: "→ 4 items" },
-    { parts: [p("  built:  ["), s('"OakLand"'), p(", "), s('"JobHuntly"'), p(", "), s('"BugLab"'), p(", "), s('"Rung"'), p(", "), s('"Forge"'), p("],")], res: "→ 5 items" },
+    { parts: [p("  built:  ["), s('"OakLand"'), p(", "), s('"db-mcp"'), p(", "), s('"JobHuntly"'), p(", "), s('"BugLab"'), p(", "), s('"Rung"'), p(", "), s('"Forge"'), p("],")], res: "→ 6 items" },
     { parts: [p("  openTo: "), s('"Remote roles and contract work"'), p(",")], res: "→ true" },
     { parts: [p("};")] },
     { parts: [c("// scroll, and read what it built ↓")], caret: true },
@@ -103,11 +103,12 @@ ${rows}`;
 {
   const cards = [
     { file: "oakland", title: "OAKLAND", n: "01", rot: -1.2 },
-    { file: "jobhuntly", title: "JOBHUNTLY", n: "02", rot: 1 },
-    { file: "buglab", title: "BUGLAB", n: "03", rot: -0.8 },
-    { file: "rung", title: "RUNG", n: "04", rot: 1.2 },
+    { file: "db-mcp", title: "DB-MCP", n: "02", rot: 1 },
+    { file: "jobhuntly", title: "JOBHUNTLY", n: "03", rot: -0.8 },
+    { file: "buglab", title: "BUGLAB", n: "04", rot: 1.2 },
+    { file: "rung", title: "RUNG", n: "05", rot: -1 },
   ];
-  const archivo = await font("archivo-latin.woff2", "OAKLANDJOBHUNTLYBUGRC", "Archivo", "900", "62% 125%");
+  const archivo = await font("archivo-latin.woff2", "OAKLANDJOBHUNTLYBUGRCDMP-", "Archivo", "900", "62% 125%");
   const mono = await font("jetbrains-mono-latin.woff2", "0123456789/ ", "JB", "500");
   for (const card of cards) {
     const style = `${archivo}
@@ -120,7 +121,7 @@ ${mono}
 <svg x="50" y="30" width="496" height="310" viewBox="0 0 496 310"><rect width="496" height="310" fill="#000" stroke="${PAPER}" stroke-width="4"/><image href="${image(`${card.file}.webp`)}" x="2" y="2" width="492" height="306" preserveAspectRatio="xMidYMin slice"/></svg>
 </g>
 <text class="title" x="48" y="402">${card.title}</text>
-<text class="num" x="552" y="402" text-anchor="end">${card.n} / 04</text>`;
+<text class="num" x="552" y="402" text-anchor="end">${card.n} / 05</text>`;
     writeFileSync(join(out, `card-${card.file}.svg`), svg(600, 430, card.title, `A screenshot of ${card.title}, one of the projects of Henry Quel.`, style, body));
   }
 }

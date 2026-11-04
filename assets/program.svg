@@ -5,7 +5,7 @@ const henry = {
   role:   "Full-stack developer",
   based:  "Guatemala City · remote",
   stack:  ["TypeScript", "React", ".NET", "WebAssembly"],
-  built:  ["OakLand", "JobHuntly", "BugLab", "Rung", "Forge"],
+  built:  ["OakLand", "db-mcp", "JobHuntly", "BugLab", "Rung", "Forge"],
   openTo: "Remote roles and contract work",
 };
 // scroll, and read what it built ↓</desc>
@@ -65,8 +65,8 @@ text { font-family: JB, ui-monospace, monospace; font-size: 21px; white-space: p
 <text class="res" style="animation-name: v3" x="1076" y="246" text-anchor="end">→ 4 items</text>
 <rect class="flash" style="animation-name: f4" x="60" y="263" width="1048" height="46"/>
 <text class="ln" style="animation-name: r4" x="136" y="292" text-anchor="end">5</text>
-<text class="code" style="animation-name: r4" x="160" y="292" xml:space="preserve"><tspan class="p">  built:  [</tspan><tspan class="s">"OakLand"</tspan><tspan class="p">, </tspan><tspan class="s">"JobHuntly"</tspan><tspan class="p">, </tspan><tspan class="s">"BugLab"</tspan><tspan class="p">, </tspan><tspan class="s">"Rung"</tspan><tspan class="p">, </tspan><tspan class="s">"Forge"</tspan><tspan class="p">],</tspan></text>
-<text class="res" style="animation-name: v4" x="1076" y="292" text-anchor="end">→ 5 items</text>
+<text class="code" style="animation-name: r4" x="160" y="292" xml:space="preserve"><tspan class="p">  built:  [</tspan><tspan class="s">"OakLand"</tspan><tspan class="p">, </tspan><tspan class="s">"db-mcp"</tspan><tspan class="p">, </tspan><tspan class="s">"JobHuntly"</tspan><tspan class="p">, </tspan><tspan class="s">"BugLab"</tspan><tspan class="p">, </tspan><tspan class="s">"Rung"</tspan><tspan class="p">, </tspan><tspan class="s">"Forge"</tspan><tspan class="p">],</tspan></text>
+<text class="res" style="animation-name: v4" x="1076" y="292" text-anchor="end">→ 6 items</text>
 <rect class="flash" style="animation-name: f5" x="60" y="309" width="1048" height="46"/>
 <text class="ln" style="animation-name: r5" x="136" y="338" text-anchor="end">6</text>
 <text class="code" style="animation-name: r5" x="160" y="338" xml:space="preserve"><tspan class="p">  openTo: </tspan><tspan class="s">"Remote roles and contract work"</tspan><tspan class="p">,</tspan></text>
